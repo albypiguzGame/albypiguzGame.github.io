@@ -19652,6 +19652,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.exps.ImagePointY,
 	cr.plugins_.Sprite.prototype.cnds.OnCreated,
 	cr.plugins_.Sprite.prototype.cnds.IsMirrored,
-	cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion
+	cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion,
+	cr.plugins_.Sprite.prototype.acts.MoveForward
 ];};
 
